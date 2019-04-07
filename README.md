@@ -4,7 +4,7 @@ This application will be for implementing a visual experience that has a an open
 
 ## TODO list
 
-[x] Bezier Curves
+- [x] Bezier Curves
 
 List of Vector3 points between right and left tangents gets updated on call.
 With resolution as the number of points.
