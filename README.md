@@ -12,9 +12,9 @@ With resolution as the number of points.
 <div style="display:flex;flex-direction:row">
     <img src="Progress//Bezier//Curve1.PNG"
         alt="drawing"
-        style="width:50%;padding-right:10px;padding-top:10px;padding-bottom:10px;padding-left:10px;" />
+        style="height:50px;padding-right:10px;padding-top:10px;padding-bottom:10px;padding-left:10px;" />
     <img src="Progress//Bezier//Curve2.PNG"
         alt="drawing"
-        style="width:50%;padding-right:10px;padding-top:10px;padding-bottom:10px;padding-left:10px;" />
+        style="height:50px;padding-right:10px;padding-top:10px;padding-bottom:10px;padding-left:10px;" />
 </div>
 
