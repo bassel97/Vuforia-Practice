@@ -8,6 +8,13 @@ public class Tangent
 {
     public Vector3 tangentStart;
     public Vector3 tangentEnd;
+
+    public void SwapDirection()
+    {
+        Vector3 temp = tangentStart;
+        tangentStart = tangentEnd;
+        tangentEnd = temp;
+    }
 }
 
 
@@ -48,13 +55,14 @@ public class BezierCurveSegment
         points.Add(leftTangent.tangentEnd);
     }
 
-    public void UpdateBezierCurveSegment(Tangent _rightTangent, Tangent _leftTangent, int _resolution)
+    public void UpdateBezierCurveSegment(Tangent _rightTangent, Tangent _leftTangent)
     {
         rightTangent = _rightTangent;
         leftTangent = _leftTangent;
-        resolution = _resolution;
 
+        points[0] = rightTangent.tangentStart;
         ReCalculatePoints();
+        points[points.Count - 1] = _leftTangent.tangentEnd;
     }
 
     void CalculatePoints()

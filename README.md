@@ -14,3 +14,11 @@ With resolution as the number of points.
     <img src="Progress//Bezier//Curve2.PNG" width="400" />
 </p>
 
+- [x] Bezier Curves Object Controlled
+
+Bezier curve is now controlled by an object. emiiting the curve from its up direction controlled by its position,rotation and scale for curve tangent length.
+
+<p align="center">
+    <img src="Progress//BezierObjects//BezierObject1.PNG" width="400" />
+    <img src="Progress//BezierObjects//BezierObject2.PNG" width="400" />
+</p>

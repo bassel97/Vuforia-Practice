@@ -7,14 +7,19 @@ public class BezierTestManager : MonoBehaviour
 
     public BezierCurveSegment curve;
 
+    public CurveBorderObject startObject;
+    public CurveBorderObject endObject;
+
+
     private void Start()
     {
-        curve.Create();
+        curve.CreateBezierCurveSegment(startObject.getTangent(), endObject.getTangent(), 30);        
     }
+
 
     private void Update()
     {
-        curve.Create();
+        curve.UpdateBezierCurveSegment(startObject.getTangent(), endObject.getTangent());
 
         curve.EditorDraw();
     }
